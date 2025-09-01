@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JS</title>
+</head>
+<style>
+    #container{
+        width: 300px;
+        height: 300px;
+        text-align: center;
+        justify-content: center;
+        padding-top: 250px;
+        border-radius: 50px;
+        border: 10px solid palevioletred;
+        
+    }
+   
+</style>
+<body>
+    <center>
+    <div id="container">
+        <button  onclick="fun()">Forword</button>
+        <button onclick="rev()">Backward</button>
+</div>
+</center>
+</body>
+<script>
+    function fun () {
+        document.getElementById("container").style.backgroundColor="blue";
+
+    }
+        function rev () {
+            document.getElementById("container").style.backgroundColor="red";
+    }
+</script>
+
+</html>
